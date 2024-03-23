@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Power</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="assets/logo.jpg" alt="logo" />Tomasz Biel Fizjoterapia</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#trainer">Odbierz e-booka</a></li>
+          <li class="link"><a href="#class">Oferta</a></li>
+          <li class="link"><a href="#client">Opinie</a></li>
+          <li class="link"><a href="#price">Cennik</a></li>
+          <li class="link"><a href="#loc"><button class="btn" >Kontakt</button></a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/ja.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Zajmij się swoim bólem</h4>
+          <h1 class="section__header">Z moją pomocą!</h1>
+          <p>
+            Jestem magistrem Fizjoterapii z ponad 4-letnim doświadczeniem pracy z bólem! 
+            Zawsze patrzę na człowieka jak na całość i staram się dojść do przyczny.
+          </p>
+          <div class="header__btn">
+            <a href="https://www.znanylekarz.pl/tomasz-biel-2/fizjoterapeuta/zielona-gora"><button class="btn" >Zapisz sie na wizytę</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img class="about__bg" src="assets/dot-bg.png" alt="bg" />
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Wygraj ze swoimy dolegliwościami</h2>
+        <p class="section__description">
+         Pomogę Ci z:
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <span><i class="ri-open-arm-line"></i></span>
+            <div>
+              <h4>Bólem stawów i mięśni</h4>
+              <p>
+                Od stóp przez kolana, biodra, kręgosłup czy barki lub szyję.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-question-fill"></i></span>
+            <div>
+              <h4>Mniej oczywistymi bólami</h4>
+              <p>
+                Takimi jak bóle głowy, brzucha, żeber czy bolesne miesiączkowania.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-basketball-fill"></i></span>
+            <div>
+              <h4>Stanami po kontuzjach i operacjach</h4>
+              <p>
+                Warto wrócić do pełni zdrowia, nie martwiąc się o ponowny uraz czy pozostawioną bliznę.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="class">
+      <h2 class="section__header">Moje usługi</h2>
+      <p class="section__description">
+        Dobieram techniki zindywidualizowane do Twojego problemu. Każdy z nas jest inny, dlatego różni pacjenci potrzebują różnych bodźców w procesie leczenia.
+      </p>
+      <div class="class__grid">
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-1.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Terapia Manualna</h4>
+            <p>Techniki stawowe oraz mięśniowe</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-2.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Manipulacja Powięzi</h4>
+            <p>Równoważenie napięć w całym ciele</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-3.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Techniki Osteopatyczne</h4>
+            <p>Delikatna praca z ciałem</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-4.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Instruktarz ćwiczeń</h4>
+            <p>Zadbamy o prawidłową mechanikę ruchu</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+        <h2 class="section__header">Co mówią ludzie, którzy mi zaufali?</h2>
+        <p class="section__description">
+          Oto kilka z ponad 100 pozytywnych opinii ma moim profilu - znanylekarz.pl
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-1.png" alt="client" />
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                    Jak zwykle fachowo i całościowe podejście do fizjo, kompletnie przeprowadzony wywiad no i co najważniejsze skuteczna terapia i zalecenia.
+                </p>
+                <h4>Tomasz</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-1.png" alt="client" />
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                    To była moja pierwsza wizyta! Pan Tomasz jest niezwykle sympatyczny, a przy tym profesjonalny! Zanim zabral sie do "pracy", przeprowadził wnikliwy wywiad! Dużo tłumaczył! Ciesze się, że do niego trafiłam! Polecam serdecznie!
+                </p>
+                <h4>Basia</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-1.png" alt="client" />
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                 Ogromna wiedza, dużo wyjaśnia. Pokazał w prosty sposób jak masaż lędźwi pomaga w zlikwidowaniu bólu karku. Czekam na kolejną wizytę , w końcu mogę skręcać głowę w aucie, a nie połowę ciała żeby zobaczyć czy mogę wyjechać ze skrzyżowania.
+                </p>
+                <h4>Mati</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-1.png" alt="client" /> 
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                    Ogrom wiedzy, doświadczenie oraz duża skuteczność. Fizjoterapia dała szybkie efekty. Sympatyczna atmosfera na wizytach przy okazji, których od fizjoterapeuty można się dowieźć sporo ciekawostek na temat zdrowia. Świetny specjalista! Bardzo polecam w przypadku jakichkolwiek bóli!
+                </p>
+                <h4>A. R.</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class="section__container trainer__container" id="trainer">
+      <h2 class="section__header">Moi pacjenci dostają więcej!</h2>
+      <p class="section__description">
+        Poznaj lepiej swój problem. Nie da się wyczerpać tematu dolegliwości bólowych podczas wizyty. Zależy mi jednak by osoby korzystające z moich usług były świadome i właściwie poinformowane.
+      </p>
+      <div class="trainer__grid">
+        <div class="trainer__card">
+          <img src="assets/trainer-1.png" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Zgarnij darmowego e-booka!</h4>
+            <h5>"Zrozumieć ból"</h5>
+            <hr />
+            <p>
+              Zapisz się na wizytę i otrzymuj e-booka mojego autorstwa!
+            </p>
+            <div class="trainer__socials">
+              <a href="https://www.facebook.com/fizjobiel"><i class="ri-facebook-fill"></i></a>
+              <a href="https://maps.app.goo.gl/8oKfReJANofyahvbA"><i class="ri-google-fill"></i></a>
+              <a href="https://www.instagram.com/tomasz.biel.fizjo?igsh=MTBtNHk4YTcxbnczdQ=="><i class="ri-instagram-line"></i></a>
+              <a href="https://www.znanylekarz.pl/tomasz-biel-2/fizjoterapeuta/zielona-gora"><i class="ri-add-circle-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Voucher dla bliskiej osoby</h4>
+            <h5>o wartości 20 złotych</h5>
+            <hr />
+            <p>
+              W celu zadbania o najważniejsze osoby w Twoim życiu, po pierwszej wizycie otrzymasz voucher, który daje 20 złotych zniżki na pierwszą wizytę.
+            </p>
+            <div class="trainer__socials">
+              <a href="https://www.facebook.com/fizjobiel"><i class="ri-facebook-fill"></i></a>
+              <a href="https://maps.app.goo.gl/8oKfReJANofyahvbA"><i class="ri-google-fill"></i></a>
+              <a href="https://www.instagram.com/tomasz.biel.fizjo?igsh=MTBtNHk4YTcxbnczdQ=="><i class="ri-instagram-line"></i></a>
+              <a href="https://www.znanylekarz.pl/tomasz-biel-2/fizjoterapeuta/zielona-gora"><i class="ri-add-circle-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/trainer-2.png" alt="trainer" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container price__container" id="price">
+      <h2 class="section__header">Cennik</h2>
+      <p class="section__description">
+        Nie martw się, u mnie nigdy nie ma ukrytych, dodatkowych kosztów. Możesz zapłacić gotówką jak i kartą.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Pierwsza Wizyta</h4>
+            <img src="assets/price-1.png" alt="price" />
+            <p>
+              Czas trwania - 45 minut. Zaczynamy od wywiadu, ale już na pierwszej wizycie bierzemy się za dokładne badanie palpacyjne i rozpoczynamy leczenie.
+            </p>
+            <hr />
+            <h4>Koszt wizyty:</h4>
+            <h4>180 złotych</h4>
+            <p>Dodatkowo otrzymujesz e-booka oraz</p>
+            <p>Voucher ze zniżką 20 złotych dla osoby bliskiej</p>
+          </div>
+          <a href="https://www.znanylekarz.pl/tomasz-biel-2/fizjoterapeuta/zielona-gora"><button class="btn2" >Zapisz sie na wizytę</button></a>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Każda nastepna wizyta</h4>
+            <img src="assets/price-2.png" alt="price" />
+            <br>
+            <p>
+              Czas trwania - 45 minut. Kontynuujemy rozpoczętą wcześniej terapię.
+            </p>
+            <br>
+            
+            <hr />
+            <h4>Koszt wizyty:</h4>
+            <h4>180 złotych</h4>
+                  </div>
+                  <a href="https://www.znanylekarz.pl/tomasz-biel-2/fizjoterapeuta/zielona-gora"><button class="btn2" >Zapisz sie na wizytę</button></a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section__container loc__container" id="loc">
+      <h2 class="section__header">Kontakt</h2>
+        <div class="loc__grid">
+        <div class="loc__card">
+          <div class="loc__content">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.4247314320446!2d15.498180299999998!3d51.9444458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470613aae6e40f1f%3A0xbd08018c4f1f67ea!2smgr%20Tomasz%20Biel%2C%20Fizjoterapeuta!5e0!3m2!1spl!2spl!4v1710883067044!5m2!1spl!2spl" width="520" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="loc__card">
+          <div class="loc__content">
+            <h4>Lokalizacja</h4>
+            <p>Gabinet 102 znajdujący się przy ul. Dąbrowskiego 41b w Zielonej Górze
+            </p>
+            <hr />
+            <h4>Telefon Kontaktowy</h4>
+            <p>731 842 990</p>
+            <hr />
+            <h4>Adres e-mail</h4>
+            <p>tomaszjakubbiel@gmail.com</p>
+            <div class="header__btn">
+              <a href="https://www.znanylekarz.pl/tomasz-biel-2/fizjoterapeuta/zielona-gora"><button class="btn1" >Zapisz sie na wizytę</button></a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#"><img src="assets/logo.jpg" alt="logo" />Tomasz Biel Fizjoterapia</a>
+          </div>
+          <p>
+            Zadbaj o swoje zdrowie, podejmij wyzwanie życia bez bólu. Wielu rzeczą da się zapobiec, a jeszcze inne wyleczyć. Nie czekaj.
+          </p>
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/fizjobiel"><i class="ri-facebook-fill"></i></a>
+            <a href="https://maps.app.goo.gl/8oKfReJANofyahvbA"><i class="ri-google-fill"></i></a>
+            <a href="https://www.instagram.com/tomasz.biel.fizjo?igsh=MTBtNHk4YTcxbnczdQ=="><i class="ri-instagram-line"></i></a>
+            <a href="https://www.znanylekarz.pl/tomasz-biel-2/fizjoterapeuta/zielona-gora"><i class="ri-add-circle-line"></i></a>
+          
+          </div>
+        </div>
+        </div>
+      <div class="footer__bar">
+        Copyright © 2024 Tomasz Biel.
+      </div>
+    </footer>
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
